@@ -11,7 +11,7 @@ class PMVC_PLUGIN_HelloWorld extends \PMVC\PLUGIN
         echo "<div>I'm init</div>";
     }
 
-    function echo($s){
+    function say($s){
         echo '<div>'.$s.'</div>';
     }
 }
