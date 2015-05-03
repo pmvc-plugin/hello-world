@@ -1,5 +1,5 @@
 {
     "require-dev": {
-        "pmvc-plugin/hello-world": "*"
+        "pmvc-plugin/hello-world": "dev-master"
     }
 }

@@ -8,11 +8,11 @@ ${_INIT_CONFIG}[_CLASS] = 'PMVC\PlugIns\PMVC_PLUGIN_HelloWorld';
 class PMVC_PLUGIN_HelloWorld extends \PMVC\PLUGIN
 {
     function init(){
-        echo "<div>I'm init</div>";
+        echo "I'm init\n";
     }
 
     function say($s){
-        echo '<div>'.$s.'</div>';
+        echo $s."\n";
     }
 }
 ?>
