@@ -1,0 +1,19 @@
+{
+    "name": "pmvc-plugin/hello-world",
+    "description": "Hello World Plugin, show you how the pmvc work",
+    "type": "library",
+    "homepage": "https://github.com/pmvc-plugin/hello-world",
+    "keywords": ["hello", "pmvc", "plug", "plug-in"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Hill",
+            "email": "hill@kimo.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.6.0",
+        "pmvc/pmvc": "*"
+    },
+    "minimum-stability": "dev"
+}
