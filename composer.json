@@ -11,14 +11,8 @@
             "email": "hill@kimo.com"
         }
     ],
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/pmvc-plugin/hello-world"
-        }
-    ],
     "require": {
-        "pmvc/pmvc": "dev-master"
+        "pmvc/pmvc": "*"
     },
     "minimum-stability": "dev"
 }
