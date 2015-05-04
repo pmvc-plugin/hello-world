@@ -6,8 +6,32 @@
 # PMVC Hello World Plugin 
 ===============
 
-## Install Composer
-curl -sS https://getcomposer.org/installer | php
+## Install with Composer
+### download composer
+   * mkdir test_folder
+   * curl -sS https://getcomposer.org/installer | php
+### edit composer file
+   * vim composer.json
+```
+{
+    "require": {
+        "pmvc-plugin/hello-world": "dev-master"
+    }
+}
+```
+### Use composer to install
+php composer.phar install
+### write some demo code
+```
+<?php
+    include_once('vendor/pmvc/pmvc/include_plug.php');
+    PMVC\setPlugInFolder('vendor/pmvc-plugin/');
+    PMVC\plug('hello-world')->say('hello, World!');
+?>
+```
+### run the demo
+   * php demo.php
 
-## Documentation:
+### Check the whole demo code
+   * https://github.com/pmvc-plugin/hello-world/tree/master/demo
 
