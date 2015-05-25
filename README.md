@@ -7,11 +7,11 @@
 ===============
 
 ## Install with Composer
-### download composer
+### 1. Download composer
    * mkdir test_folder
    * curl -sS https://getcomposer.org/installer | php
 
-### edit composer file
+### 2. Edit composer file
    * vim composer.json
 ```
 {
@@ -20,9 +20,9 @@
     }
 }
 ```
-### Use composer to install
+### 3. Use composer to install
 php composer.phar install
-### write some demo code
+### 4. Write some demo code
 ```
 <?php
     include_once('vendor/pmvc/pmvc/include_plug.php');
@@ -30,7 +30,7 @@ php composer.phar install
     PMVC\plug('hello-world')->say('hello, World!');
 ?>
 ```
-### run the demo
+### 5. Run the demo
    * php demo.php
 
 ### Check the whole demo code
