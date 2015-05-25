@@ -10,6 +10,7 @@
 ### download composer
    * mkdir test_folder
    * curl -sS https://getcomposer.org/installer | php
+
 ### edit composer file
    * vim composer.json
 ```
