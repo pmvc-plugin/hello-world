@@ -1,11 +1,11 @@
 <?php
-namespace PMVC\PlugIns;
+namespace PMVC\PlugIn\HelloWorld;
 
 // \PMVC\l(__DIR__.'/xxx.php');
 
-${_INIT_CONFIG}[_CLASS] = 'PMVC\PlugIns\PMVC_PLUGIN_HelloWorld';
+${_INIT_CONFIG}[_CLASS] = 'PMVC\PlugIn\HelloWorld\HelloWorld';
 
-class PMVC_PLUGIN_HelloWorld extends \PMVC\PLUGIN
+class HelloWorld extends \PMVC\PlugIn
 {
     function init(){
         echo "I'm init\n";

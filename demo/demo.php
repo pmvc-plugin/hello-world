@@ -1,4 +1,4 @@
 <?php
-include_once('vendor/pmvc/pmvc/include_plug.php');
-PMVC\setPlugInFolder('vendor/pmvc-plugin/');
+include('vendor/autoload.php');
+PMVC\Load::plug();
 PMVC\plug('hello-world')->say('hello, World!');

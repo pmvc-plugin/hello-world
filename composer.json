@@ -3,7 +3,7 @@
     "description": "Hello World Plugin, show you how the pmvc work",
     "type": "library",
     "homepage": "https://github.com/pmvc-plugin/hello-world",
-    "keywords": ["hello", "pmvc", "plug", "plug-in"],
+    "keywords": ["hello", "pmvc", "plug-in"],
     "license": "MIT",
     "authors": [
         {
@@ -13,6 +13,11 @@
     ],
     "require": {
         "pmvc/pmvc": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "PMVC\\HelloWorld\\": ""
+        }
     },
     "minimum-stability": "dev"
 }
