@@ -1,8 +1,8 @@
 {
-    "name": "pmvc-plugin/hello-world",
+    "name": "pmvc-plugin/hello_world",
     "description": "Hello World Plugin, show you how the pmvc work",
     "type": "library",
-    "homepage": "https://github.com/pmvc-plugin/hello-world",
+    "homepage": "https://github.com/pmvc-plugin/hello_world",
     "keywords": ["hello", "pmvc", "plug-in"],
     "license": "MIT",
     "authors": [
@@ -16,7 +16,7 @@
     },
     "autoload": {
         "psr-4": {
-            "PMVC\\HelloWorld\\": ""
+            "PMVC\\PlugIn\\hello_world\\": ""
         }
     },
     "minimum-stability": "dev"
