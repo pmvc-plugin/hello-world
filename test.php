@@ -1,5 +1,4 @@
 <?php
-include('vendor/autoload.php');
 PMVC\Load::plug();
 PMVC\setPlugInFolder('../');
 class HelloTest extends PHPUnit_Framework_TestCase
