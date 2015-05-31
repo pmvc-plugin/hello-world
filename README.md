@@ -1,8 +1,8 @@
 [![Latest Stable Version](https://poser.pugx.org/pmvc-plugin/hello_world/v/stable)](https://packagist.org/packages/pmvc-plugin/hello_world) 
-[![Total Downloads](https://poser.pugx.org/pmvc-plugin/hello_world/downloads)](https://packagist.org/packages/pmvc-plugin/hello_world) 
 [![Latest Unstable Version](https://poser.pugx.org/pmvc-plugin/hello_world/v/unstable)](https://packagist.org/packages/pmvc-plugin/hello_world) 
-[![License](https://poser.pugx.org/pmvc-plugin/hello_world/license)](https://packagist.org/packages/pmvc-plugin/hello_world)
 [![Build Status](https://travis-ci.org/pmvc-plugin/hello_world.svg?branch=master)](https://travis-ci.org/pmvc-plugin/hello_world)
+[![License](https://poser.pugx.org/pmvc-plugin/hello_world/license)](https://packagist.org/packages/pmvc-plugin/hello_world)
+[![Total Downloads](https://poser.pugx.org/pmvc-plugin/hello_world/downloads)](https://packagist.org/packages/pmvc-plugin/hello_world) 
 
 # PMVC Hello World Plugin 
 ===============
