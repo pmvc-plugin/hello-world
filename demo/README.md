@@ -3,7 +3,6 @@
 ===============
 
 ## Install 
-   * cd demo
    * php composer.phar install
 
 ## Run 
