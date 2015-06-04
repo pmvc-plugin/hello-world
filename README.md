@@ -17,23 +17,25 @@
 ```
 {
     "require": {
-        "pmvc-plugin/hello-world": "dev-master"
+        "pmvc-plugin/hello_world": "dev-master"
     }
 }
 ```
 ### 3. Use composer to install
-php composer.phar install
+   * php composer.phar install
+or
+   * php composer.phar require pmvc-plugin/hello_world
 ### 4. Write some demo code
 ```
 <?php
     include_once('vendor/pmvc/pmvc/include_plug.php');
     PMVC\setPlugInFolder('vendor/pmvc-plugin/');
-    PMVC\plug('hello-world')->say('hello, World!');
+    PMVC\plug('hello_world')->say('hello, World!');
 ?>
 ```
 ### 5. Run the demo
    * php demo.php
 
 ### Check the whole demo code
-   * https://github.com/pmvc-plugin/hello-world/tree/master/demo
+   * https://github.com/pmvc-plugin/hello_world/tree/master/demo
 
