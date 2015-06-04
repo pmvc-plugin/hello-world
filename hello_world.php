@@ -3,7 +3,7 @@ namespace PMVC\PlugIn\hello_world;
 
 // \PMVC\l(__DIR__.'/xxx.php');
 
-${_INIT_CONFIG}[_CLASS] = 'PMVC\PlugIn\hello_world\hello_world';
+${_INIT_CONFIG}[_CLASS] = __NAMESPACE__.'\hello_world';
 
 class hello_world extends \PMVC\PlugIn
 {
