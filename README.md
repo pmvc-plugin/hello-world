@@ -12,7 +12,8 @@
    * mkdir test_folder
    * curl -sS https://getcomposer.org/installer | php
 
-### 2. Edit composer file
+### 2. Install Use composer.json
+#### 2.1 Edit composer file
    * vim composer.json
 ```
 {
@@ -21,11 +22,12 @@
     }
 }
 ```
-### 3. Use composer to install
    * php composer.phar install
-or
+
+#### 2.2 Use composer to install
    * php composer.phar require pmvc-plugin/hello_world
-### 4. Write some demo code
+
+### 3. Write some demo code
 ```
 <?php
     include_once('vendor/pmvc/pmvc/include_plug.php');
@@ -33,9 +35,9 @@ or
     PMVC\plug('hello_world')->say('hello, World!');
 ?>
 ```
-### 5. Run the demo
+### 4. Run the demo
    * php demo.php
 
-### Check the whole demo code
+### 5. Check the whole demo code
    * https://github.com/pmvc-plugin/hello_world/tree/master/demo
 
