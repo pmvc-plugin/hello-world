@@ -7,12 +7,13 @@ ${_INIT_CONFIG}[_CLASS] = __NAMESPACE__.'\hello_world';
 
 class hello_world extends \PMVC\PlugIn
 {
-    function init(){
+    public function init()
+    {
         echo "I'm init\n";
     }
 
-    function say($s){
+    public function say($s)
+    {
         echo $s."\n";
     }
 }
-?>
