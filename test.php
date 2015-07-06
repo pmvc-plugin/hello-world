@@ -1,6 +1,6 @@
 <?php
 PMVC\Load::plug();
-PMVC\setPlugInFolder('../');
+PMVC\addPlugInFolder('../');
 class HelloTest extends PHPUnit_Framework_TestCase
 {
     function testPlugin()
