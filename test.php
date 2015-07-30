@@ -3,21 +3,21 @@ PMVC\Load::plug();
 PMVC\addPlugInFolder('../');
 class HelloTest extends PHPUnit_Framework_TestCase
 {
+    private $_plug = 'hello_world';
     function testPlugin()
     {
         ob_start();
-        $plug = 'hello_world';
-        print_r(PMVC\plug($plug));
+        print_r(PMVC\plug($this->_plug));
         $output = ob_get_contents();
         ob_end_clean();
-        $this->assertContains($plug,$output);
+        $this->assertContains($this->_plug,$output);
     }
 
     function testHello()
     {
         $willSay = 'hello, World!';
         ob_start();
-        PMVC\plug('hello_world')->say($willSay);
+        PMVC\plug($this->_plug)->say($willSay);
         $output = ob_get_contents();
         ob_end_clean();
         $this->assertContains($willSay,$output);
