@@ -3,8 +3,6 @@
 
 ## Install 
    * php composer.phar install
-   * Or
-      * composer install
 
 ## Run 
 php demo.php
