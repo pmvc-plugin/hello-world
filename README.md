@@ -30,9 +30,9 @@
 ### 3. Write some demo code
 ```
 <?php
-    include_once('vendor/pmvc/pmvc/include_plug.php');
-    PMVC\setPlugInFolder('vendor/pmvc-plugin/');
-    PMVC\plug('hello_world')->say('hello, World!');
+    include('vendor/autoload.php');
+    PMVC\Load::plug();
+    \PMVC\plug('hello_world')->say('hello, World!');
 ?>
 ```
 ### 4. Run the demo
