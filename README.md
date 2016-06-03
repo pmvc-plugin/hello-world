@@ -7,6 +7,10 @@
 # PMVC Hello World Plugin 
 ===============
 
+## How to use? Check the demo code.
+https://github.com/pmvc-plugin/hello_world/tree/master/demo
+
+
 ## Install with Composer
 ### 1. Download composer
    * mkdir test_folder
