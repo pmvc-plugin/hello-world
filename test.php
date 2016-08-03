@@ -17,7 +17,7 @@ class HelloTest extends PHPUnit_Framework_TestCase
     {
         $willSay = 'hello, World!';
         ob_start();
-        PMVC\plug($this->_plug)->say($willSay);
+        PMVC\plug($this->_plug,[$willSay])->say();
         $output = ob_get_contents();
         ob_end_clean();
         $this->assertContains($willSay,$output);

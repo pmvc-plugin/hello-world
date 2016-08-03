@@ -1,8 +1,6 @@
 <?php
 namespace PMVC\PlugIn\hello_world;
 
-// \PMVC\l(__DIR__.'/xxx.php');
-
 ${_INIT_CONFIG}[_CLASS] = __NAMESPACE__.'\hello_world';
 
 class hello_world extends \PMVC\PlugIn
@@ -12,8 +10,8 @@ class hello_world extends \PMVC\PlugIn
         echo "I'm init\n";
     }
 
-    public function say($s)
+    public function say()
     {
-        echo $s."\n";
+        echo $this[0]."\n";
     }
 }
