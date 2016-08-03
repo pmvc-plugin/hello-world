@@ -47,5 +47,5 @@ https://github.com/pmvc-plugin/hello_world/tree/master/demo
 
 ## One line test
 ```
-php -r "include('vendor/autoload.php'); PMVC\Load::plug(); \PMVC\addPlugInFolders(['../']); \PMVC\plug('hello_world', ['Hello, PMVC.'])->say();"
+php -r "include('vendor/autoload.php'); PMVC\Load::plug(null,['../']); \PMVC\plug('hello_world', ['Hello, PMVC.'])->say();"
 ```
