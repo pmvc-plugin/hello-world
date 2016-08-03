@@ -36,7 +36,7 @@ https://github.com/pmvc-plugin/hello_world/tree/master/demo
 <?php
     include('vendor/autoload.php');
     PMVC\Load::plug();
-    \PMVC\plug('hello_world')->say('hello, World!');
+    \PMVC\plug('hello_world', ['Hello, PMVC.'])->say();
 ?>
 ```
 ### 4. Run the demo
